@@ -13,7 +13,7 @@ namespace CodingTestNagarro
             var input = string.Empty;
 
             // I added the validation to not accept numbers, this for not breaking the format [FirstLetter][NumberDistinct][LastLetter]
-            // Example: Exercis3 --> E73 --> 2 numbers at the end
+            // Example: Exercis3 --> E63 --> 2 numbers at the end
             while (!validInput) {
                 Console.WriteLine("Type a string: ");
                 input = Console.ReadLine();
